@@ -26,7 +26,7 @@ public class TeachingWerewolfGame {
         }
 
         public void kill(){
-            alive = false;
+            alive = false;  
         }
 
         public String getPublicInfo(){
