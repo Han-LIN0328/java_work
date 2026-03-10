@@ -28,8 +28,9 @@ public class TeachingWerewolfGame {
                 return "Player " + id + "[Alive]";
             }else{
                 return "Player " + id + "[Dead]";
-            }s
-        } public static void main(String[] args){
+            }
+        } }
+        public static void main(String[] args){
             Scanner sc =new Scanner(System.in);
             Random rand=new Random();
             System.out.println("wolfGame");
@@ -42,9 +43,9 @@ public class TeachingWerewolfGame {
                 sc.nextLine();
             }
             Player[] player=new Player[n];
-            int wolfIndex=rand.Int();
+            int wolfIndex=rand.nextInt(n);
             for (int i=0;i<n;i++){
-                if(i==WolfIndex){
+                if(i ==wolfIndex){
                     player[i]=new Player(i+1,role="Werewolf");
                 }else{
                     player[i]=new Player(i+1,role="Villager");
