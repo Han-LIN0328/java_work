@@ -23,7 +23,7 @@ public class Main {
             System.out.printf("第 %d 次迭代: x = %.5f%n", i, x);
         }
 
-        System.out.println("--------------------------------");
+        System.out.println("--------------------------------");  
         System.out.println("觀察：小小的改變 r 或 x，結果會大幅震盪。");
     }
 }
